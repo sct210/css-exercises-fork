@@ -1,6 +1,10 @@
 p {
     color: #000000;
     background-color: #ffc0cb;
-    font-variant: verdana;
+    font-family: "Verdana","DejaVu Sans", sans-serif;
 
+}
+
+#thirdline {
+    font-size: 24px;
 }
