@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /*SWM changed header to center, vertical and moved links 
+  all the way to each end*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -9,11 +14,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+    
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*SWM changed list items to vertical*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
 }
 
 a {
