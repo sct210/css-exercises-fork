@@ -4,6 +4,7 @@
   /*SWM changed header to center, vertical and moved links 
   all the way to each end*/
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -14,7 +15,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-    
+  /*SWM Adds a margin space around the logo*/
+  margin: 10px;
+  
 }
 
 ul {
@@ -23,8 +26,10 @@ ul {
   /*SWM changed list items to vertical*/
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
+  /*SWM Changed padding and gap space for both link lists*/ 
+  gap: 16px;
+  padding: 10px;
 
 }
 
